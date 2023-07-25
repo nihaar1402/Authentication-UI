@@ -1,0 +1,274 @@
+body img{ 
+   width: 200%;
+   height: 200%;
+   position:absolute;
+   display: flexbox;
+   margin-left: -10px;
+   margin-top: -10px;
+   
+}
+nav input{
+    background-color: black;
+}
+
+.email{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.password{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+  
+  position: absolute;
+  padding: 20 60;
+  width: 250;
+  height: 360;
+  padding-left: 35px;
+  margin-left: 520px;
+  margin-top: 150px;
+  background-color: aliceblue;
+  border-color: lightcoral;
+  border-radius: 30px;
+  border-width: 5px;
+  
+  
+} 
+.form h1{
+    color:lightcoral;
+    margin-left: 23;
+    font-family: sans-serif;
+    font-style:  normal;
+}
+.form input{
+    background-color:  aliceblue ;
+    color: black;
+    border-radius: 50px;
+    height: 37;
+    padding-left: 37px;
+    padding-right: 30px;
+    margin-left: 6px ;
+    border-color: lightcoral;
+    border-width: 3px;
+}
+.form button{
+    background-color:lightcoral;
+    color: black;
+    border-radius: 50px;
+    height:37;
+    padding-left: 40;
+    padding-right: 40;
+    margin-left: 60px;
+    
+}
+form a{
+   text-decoration: none;
+   color: lightcoral;
+   font-size: large;
+   margin-left: 100px;
+}
+.navbar{
+    position: absolute;
+    height: 15%;
+    background-color:transparent;
+    width: 100%;
+    display: block;
+    border-radius: 60px;
+
+}
+.nav{
+    position: relative;
+}
+.navbar-contents{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 18%;
+}
+.navbar-contents a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    align-items: center;
+    
+}
+.navbar-contents .blog{
+    margin-left: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    width: 60px;
+    padding-left: 20px;
+
+}
+.navbar-contents .contact{
+    margin-left: 70%;
+    margin-bottom: -31px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-contents .business{
+    margin-left: 50%;
+    margin-bottom: -31px;
+    border-radius: 40px;
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-contents .social{
+    margin-left: 30%;
+    margin-bottom: -31px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    width: 100px;
+    padding-left: 40px;
+}
+.menu{
+    position: absolute;
+    font-size: large;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.side{
+    position: absolute;
+    background-color: aliceblue;
+    display: none;
+    width:10%;
+    height: 80%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left:1px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.sidebar{
+    position: relative;
+   /*
+    width: 8%;
+    background-color: purple;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border-radius: 25px; */
+    
+}
+.sidebar-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.sidebar-contents a{
+    text-decoration: none;
+    color: black;
+    
+}
+.sidebar-contents .python{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar-contents .java{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar-contents .cpp{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+
+.drop{
+    font-size: 15px;
+}
+
+.dropdown{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: block;
+    
+}
+.dropdown-contents {
+    width: 155px;
+    height: 160px;
+    display: none;
+    background-color: aliceblue;
+    
+}
+.dropdown-contents a{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    display: none;
+    text-decoration: none;
+    background-color: aliceblue;
+    
+}
+.dropblog{
+    position: absolute;
+    display:none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+.blog-contents{
+    font-size: medium;
+    
+}
+.blog-contents a{
+    border-left: 30px;
+    border-right: 30px;
+    border-top: 10px;
+    border-bottom: 10px;
+    
+}
+
+.blog:hover .dropblog{display: block;}
+.blog-contents a:hover{background-color: lightpink; transition: 0.4s;}
+
+
+
+
+.python:hover{background-color: lightpink;transition: 0.4s;}
+.java:hover{background-color: lightpink;transition: 0.4s;}    
+.cpp:hover{background-color: lightpink;transition: 0.4s;}
+
+.business:hover{background-color: lightpink;transition: 0.4s;}
+.social:hover{background-color: lightpink;transition: 0.4s;}
+.contact:hover{background-color: lightpink;transition: 0.4s;}
+.blog:hover{background-color: lightpink;transition: 0.4s;}
+
+.menu:hover +.side{display: block;transition: 5s;}
+.side:hover{display: block;transition: 5s;}
+
+.drop:hover{background-color: lightpink;transition: 0.4s;}
+.drop:hover .dropdown-contents{display: block;} .dropdown-contents a{display: block;}
+.dropdown-contents a:hover{background-color: lightpink;transition:0.4s;}

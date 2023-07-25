@@ -1,0 +1,40 @@
+img{
+    margin-left: -50%;
+    margin-top: -60%;
+    position: absolute;
+}
+.header{
+    display: block;
+    position:relative ;
+    margin-left: 15px;
+    color: lightcoral;
+}
+.register{
+    display: block;
+    position: relative;
+    border-style: double;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border-color: lightcoral;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 70px;
+    height: 500px;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+input{
+  height: 20px;
+  width: 40%;
+  border-radius: 30px;
+  border-color: lightcoral;
+  border-width: 3px;
+}
+button{
+    height: 30px;
+    border-radius: 30px;
+    background-color: lightcoral;
+    
+}

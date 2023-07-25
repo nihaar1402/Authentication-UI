@@ -1,0 +1,106 @@
+<html>
+    <link rel="stylesheet" href="auth.css">
+<body>
+  <img src="pix.jpg"/>
+  <div class="navbar">
+   <div class="nav">
+    <div class="navbar-contents">
+      <div class="social" onclick="social()">
+        <a href="#">Social</a>
+      </div>
+
+      <div class="business">
+        <a href="#">Business</a>
+      </div>
+
+      <div class="contact">
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="blog">
+        <a href="#">Blog</a>
+        <div class="dropblog">
+        <div class="blog-contents">
+       <a href="#">Personal</a><br><br>
+       <a href="#">Professional</a><br><br>
+       <a href="#">Public</a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+   </div>
+  </div>
+  <div class="menu"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+  </svg></div>
+  <div class="side">
+  <div class="sidebar" id="mysidebar">
+    <div class="sidebar-header">
+      <head>
+        
+      </head>
+    </div>
+       <div class="sidebar-contents">
+        
+         <div class="python">
+          <a href="https://www.python.org">python</a>
+        </div>
+     
+       
+         <div class="java">
+          <a href="#">
+            Java
+          </a>
+         </div>
+       
+        
+         <div class="cpp">
+          <a href="#">
+            C++
+          </a>
+        </div>
+
+        <div class="drop">
+             <div class="dropdown">
+               <a href="#">DropDown</a>
+              </div>
+               <div class="dropdown-contents">
+               <a href="#">Drop1</a>
+               <a href="#">Drop1</a>
+               <a href="#">Drop1</a>
+              </div>
+        </div>
+
+       </div> 
+     </div>
+  </div>
+</div>
+
+<div class="form">
+    <h1>Authentication</h1>
+  <form action="auth.js" method="post">
+    <p class="email">Email : </p>
+    <input type="email" id="email" placeholder="email" name="mail"required>
+    <br>
+    <p class="password">Password : </p>
+    <input type="password" id="pass" placeholder="password"name="pas" required>
+    <br><br><br>
+    <button type="submit" class="fsubmit" id="submit" onclick="auth()">Submit</button><br><br>
+    <a href="register.html">Register</a>
+    <br><br>
+    
+    <h1 id="text"></h1>
+  </form>
+</div>
+ 
+  <script type="text/javascript" src="auth.js">
+
+  </script>
+
+ 
+</body>
+
+</html>
+
